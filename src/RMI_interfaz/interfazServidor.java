@@ -21,4 +21,6 @@ public interface interfazServidor extends Remote{
     public String cambiarPass(String nombre, String pass, String passNew) throws RemoteException;
     public ArrayList<String> getSalasChat(int idSesion) throws RemoteException;
     
+    /*probando commit*/
+    
 }
