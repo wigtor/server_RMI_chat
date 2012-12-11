@@ -35,51 +35,51 @@ public class interfazServidorImpl extends UnicastRemoteObject implements interfa
     }
     
     @Override
-    public boolean conectarSala(int idSesion, String username, String nombreSala) {
+    public boolean conectarSala(int idSesion, String username, String nombreSala) throws RemoteException {
         
         
         return false;
     }
     
     @Override
-    public boolean enviarMensajeSala(int idSesion, String username, String salaSelected, String mensaje, String timestamp) {
+    public boolean enviarMensajeSala(int idSesion, String username, String salaSelected, String mensaje, String timestamp) throws RemoteException {
         
         return false;
     }
     
     @Override
-    public boolean desconectarSala(int idSesion, String username, String nombreSala) {
+    public boolean desconectarSala(int idSesion, String username, String nombreSala) throws RemoteException{
         
         
         return false;
     }
     
     @Override
-    public int desconectar(int idSesion) {
+    public int desconectar(int idSesion) throws RemoteException {
         
         return 0;
     }
     
     @Override
-    public String registrarUsuario(String username, String pass) {
+    public String registrarUsuario(String username, String pass) throws RemoteException {
         
         return null;
     }
     
     /*
     @Override
-    public ArrayList<UsuarioFromCliente> getUsuariosConectados(int idSesion);
+    public ArrayList<UsuarioFromCliente> getUsuariosConectados(int idSesion) throws RemoteException;
     
     */
     
     @Override
-    public String cambiarPass(String nombre, String pass, String passNew) {
+    public String cambiarPass(String nombre, String pass, String passNew) throws RemoteException {
         
         return null;
     }
     
     @Override
-    public ArrayList<String> getSalasChat(int idSesion) {
+    public ArrayList<String> getSalasChat(int idSesion) throws RemoteException {
         
         return null;
     }
