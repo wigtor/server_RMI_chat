@@ -114,6 +114,11 @@ public class Server_window extends javax.swing.JFrame {
                 btn_iniciarMouseClicked(evt);
             }
         });
+        btn_iniciar.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn_iniciarActionPerformed(evt);
+            }
+        });
 
         lb_numUsuarios.setText("0");
 
@@ -238,6 +243,10 @@ public class Server_window extends javax.swing.JFrame {
             JOptionPane.showMessageDialog(this, msj, msj, JOptionPane.ERROR_MESSAGE);
         }
     }//GEN-LAST:event_btn_iniciarMouseClicked
+
+    private void btn_iniciarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_iniciarActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn_iniciarActionPerformed
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton btn_detener;

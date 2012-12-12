@@ -15,8 +15,8 @@ public class Server_RMI_chat {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        //Server_window window = new Server_window();
-        //window.setVisible(true);        
+        Server_window window = new Server_window();
+        window.setVisible(true);        
         Chat_window chat = new Chat_window();
         chat.setVisible(true);
         
